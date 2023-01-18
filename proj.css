@@ -1,0 +1,197 @@
+body {
+  font-family: Calibri, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainheader {
+  background-color: #333333;
+  color: white;
+}
+
+.logo {
+  font-size: 48pt;
+  padding-left: 50pt;
+  align-items: center;
+  display: inline;
+  justify-content: flex-start;
+  padding: 0px 50px;
+}
+
+.logo p {
+  display: inline;
+}
+
+.navigation {
+  float: right;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 0px;
+}
+
+.navigation nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 50px;
+}
+
+.navigation2 {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.navigation2 nav a {
+  text-decoration: none;
+  color: #333333;
+  padding-right: 15px;
+  font-size: 16pt;
+}
+
+.search {
+  float: right;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+input[type="text" i] {
+  height: 40px;
+  width: 220px;
+}
+.section1 {
+  padding: 10px 0px;
+}
+
+.section2 {
+  background-color: #dddddd;
+  color: #333333;
+  padding: 50px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.section2 .subsection1 {
+  width: 30%;
+}
+.section2 .subsection2 {
+  width: 40%;
+}
+
+.section2 .subsection2 h1 {
+  font-size: 58pt;
+}
+
+.section2 .subsection3 {
+  font-size: 18pt;
+  width: 40%;
+}
+
+.section2 .subsection3 li {
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.section3 {
+  display: flex;
+  padding: 50px;
+}
+
+.section3 .subsection {
+  text-align: center;
+  width: 16.66%;
+}
+.section3 .subsection img {
+  width: 70%;
+}
+
+.heading {
+  padding-left: 50px;
+  font-size: 30pt;
+  color: #333333;
+}
+
+.section4 {
+  display: flex;
+  padding: 60px;
+}
+
+.section4 .subsection {
+  text-align: center;
+  width: 25%;
+}
+.section4 .subsection img {
+  width: 70%;
+  border-image: 5px solid transparent;
+}
+
+.heading1 {
+  padding-left: 50px;
+  font-size: 30pt;
+  color: #333333;
+}
+
+.section5 {
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.section5 .subsection {
+  text-align: center;
+  width: 25%;
+}
+.section5 .subsection img {
+  width: 70%;
+}
+
+.brands {
+  font-size: 14pt;
+  color: #333333;
+  line-height: 200%;
+  text-align: left;
+  word-spacing: 20%;
+  padding-left: 100px;
+  padding-right: 80px;
+}
+
+footer {
+  background-color: #131a22;
+  align-items: left;
+  display: flex;
+  color: white;
+  padding-left: 40px;
+}
+
+footer li:first-child {
+  font-size: 18px;
+}
+footer li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer .myaccount {
+  width: 25%;
+  padding-left: 20px;
+}
+
+footer .policies {
+  width: 25%;
+  padding-left: 20px;
+}
+
+footer .contact {
+  width: 25%;
+  padding-left: 20px;
+}
+
+footer .social {
+  width: 25%;
+  padding-left: 20px;
+}
